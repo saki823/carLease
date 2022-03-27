@@ -1,0 +1,356 @@
+@media screen and (max-width: 1200px){
+
+	#top_img{
+		height: 46vw;
+	}
+
+	#top_img img:nth-child(3){
+		height:46vw;
+	}
+
+	#top_img img:nth-child(4){
+		width: 74%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+
+	.car_inner > img:nth-child(1){
+		max-width: none;
+		width: 100%;
+		height: auto;
+		padding-right: 0;
+		border-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.car_buttons{
+		max-width: none;
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	.car_buttons p br{
+		display: none;
+	}
+
+	.option{
+		margin-top: 5px;
+	}
+
+	#bottom_list_inner ul{
+		width: 55%;
+		padding-right: 1%;
+
+		
+	}
+
+	#bottom_list_inner ul li{
+		width: 48%;
+
+		
+	}
+
+}
+
+
+@media screen and (max-width:765px){
+
+	.narrow{
+		display: block;
+	}
+	
+	.wide{
+		display: none;
+	}
+
+	#top_img{
+		height: auto;
+	}
+
+	#top_list{
+		background-position: top 50% center;
+	}
+
+	#top_list ul{
+		display: flex;
+		margin: 0 auto;
+		width: 97%;
+		max-width: none;
+		padding: 75px 0 10px 0;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#top_list ul li{
+		width: 32%;
+		height: auto;
+		padding: 0 0 65px 0;
+	}
+
+	#top_list ul li a img{
+		width: 100%;
+		margin: 0 auto;
+		transition-duration: .6s;
+	}
+
+
+	.car_txt{
+		top: 5.2vw;
+		left: 3.9vw;
+	}
+
+	.car_txt p{
+		color: #fff; 
+		line-height: 100%;
+	}
+
+	.car_txt p:nth-child(1){
+		font-size: 4.8vw;
+	}
+
+	.car_txt p:nth-child(2){
+		font-size: 8.2vw;
+		margin-bottom: 1vw;
+	}
+
+	.car_txt p:nth-child(3){
+		font-size: 3vw;
+		line-height: 150%;
+		letter-spacing: -0.05em;
+	}
+
+	.car_caption{
+		position: absolute;
+		left: 3.9vw;
+		top: 83.8vw;
+		font-size: 3.1vw;
+		color: #fff;
+	}
+
+	.option {
+		margin-bottom: 80px;
+	}
+
+	.option ul{
+		justify-content: space-between;
+	}
+
+	.option ul li {
+		width: 46%;
+		padding: 0 0 20px 0;
+		flex-wrap: wrap;
+	}
+
+	.option ul li img{
+		width: 100%;
+	}
+
+	.trouble_imgs{
+		flex-wrap: wrap;
+		width: 195px;
+		height: 100%;
+		padding-right: 20px;
+	}
+
+	.trouble_imgs img{
+		height: 100%;
+	}
+
+	.trouble_txt{
+		min-width: 0;
+		margin: 20px 0 auto 0;
+	}
+
+	#trouble_caption{
+		width: 100%;
+		margin: 44px auto 0 0;
+	}
+
+	#lists_chart{
+		padding-bottom: 96px;
+	}
+
+	#lists_chart > img{
+		width: 98%;
+		max-width: 970px;
+		margin: 0 auto 60px auto;
+		padding-top: 55px;
+	}
+
+	#lists_chart_img{
+		flex-wrap: wrap;
+	}
+
+	#lists_chart_img img:nth-child(1){
+		padding-bottom: 50px;
+	}
+
+	#lists_chart_img img:nth-child(1),
+	#lists_chart_img img:nth-child(2){
+		width: 98%;
+		margin: 0 auto;
+		max-width: none;
+	}
+
+	#plans > img:nth-child(1){
+		max-width: none;
+		width: 80%;
+		padding: 65px 0 25px 0;
+	}
+
+	#plans_txt{
+		width: 100%;
+	}
+
+	#plans_txt p{
+		width: 93%;
+		max-width: none;
+	}
+
+	#plans_chart{
+		width: 100%;
+		margin-top: 45px;
+	}
+
+	#plans_chart p{
+		width: 93%;
+		margin: 15px auto 0 auto;
+	}
+
+	#schedule img{
+		width: 100%;
+	}
+
+	#simulation > img{
+		max-width: none;
+		width: 80%;
+		padding: 90px 0 35px 0;
+	}
+
+	#sim_01{
+		width: 100%;
+	}
+
+	#sim_02 img{
+		width: 100%;
+	}
+
+	#flow > img {
+		width: 66%;
+		padding: 110px 0 0 0;
+	}
+
+	#flow_txt{
+		margin: 30px auto 36px auto;
+		text-align: left;
+		width: 96%;
+	}
+
+	#flow_img{
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	#flow_buttons{
+		width: 96%;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		margin-top: 105px;
+	}
+
+	#flow_buttons button{
+		width: 100%;
+	}
+
+	#flow_buttons button:nth-child(1){
+		margin-bottom: 40px;
+	}
+
+	#flow_buttons button:nth-child(1) a img{
+		margin: 0 2% 0 2px;
+	}
+
+	#bottom_list_inner{
+		max-width: none;
+		display: block;
+	}
+
+	#list_menu{
+		width: 98%;
+		height: auto;
+		margin: 0 auto;
+		background-color: transparent;
+	}
+
+	#menu_select > div{
+		width: 100%;
+	}
+
+	#menu_select > div > p{
+		font-size: 16px;
+		margin-bottom: 5px;
+		color: #fff;
+	}
+
+	#price {
+		width: 100%;
+		margin-top: 22px;
+		padding-bottom: 30px;
+		border-color: #fff;
+	}
+
+	#price p{
+		color: #fff;
+	}
+
+	#price > p:nth-child(1){
+		margin: auto 0;
+	}
+
+	#menu_select > div select{
+		font-size: 16px;
+		width: 100%;
+		height: 48px;
+	}
+
+	#menu_buttons{
+		width: 100%;
+		margin-top: 34px;
+		padding-top: 150px;
+		border-color: #fff;
+	}
+
+	#menu_buttons button,
+	#menu_buttons > p{
+		width: 100%;
+	}
+
+	#menu_buttons > p{
+		color: #fff;
+	}
+
+	#bottom_list{
+		padding: 40px 0 80px 0;
+	}
+
+	#bottom_list > p{
+		margin-top: 75px;
+		width: 92%;
+	}
+
+	#nav ul{
+		flex-wrap: wrap;
+		padding-top: 24px;
+	}
+
+	#nav ul li:first-child{
+		padding-left: 20px;
+	}
+
+	#contact{
+		display: flex;
+	}
+
+
+}
