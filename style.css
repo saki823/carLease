@@ -31,6 +31,10 @@ button {
 	appearance: none;
 }
 
+.car_txt p,.car_caption,.car_buttons button a,.trouble_txt p,#plans_txt p,#flow p,#flow_buttons button a,#list_menu p,#menu_buttons button a ,#nav ul li a,#contact p{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
 .narrow{
 	display: none;
 }
@@ -107,8 +111,8 @@ p{
 
 .car_txt{
 	position: absolute;
-	top: 7.5vw;
-	left: 6.25vw;
+	top: 8vw;
+	left: 6.5vw;
 }
 
 .car_txt p{
@@ -117,12 +121,12 @@ p{
 }
 
 .car_txt p:nth-child(1){
-	font-size: 2vw;
-	margin-bottom: 0.45vw;
+	font-size: 1.8vw;
+	margin-bottom: 0.8vw;
 }
 
 .car_txt p:nth-child(2){
-	font-size: 5.1vw;
+	font-size: 5vw;
 	font-weight: 900;
 	margin-bottom: 2vw;
 }
@@ -286,7 +290,7 @@ p{
 
 .trouble_txt p:nth-child(2){
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #trouble_caption{
@@ -435,7 +439,7 @@ p{
 }
 
 #flow_txt{
-	margin: 50px auto 36px auto;
+	margin: 30px auto 36px auto;
 }
 
 #flow_txt p:nth-child(1){
@@ -586,31 +590,35 @@ p{
 
 }
 
-#menu_select > div select{
-	width: 275px;
-	padding-left: 11px;
+#model,#color,#plan{
+	width: 100%;
+	max-width: 273px;
 	height: 38px;
-	border: 1px solid #EBEED9;
-	border-radius: 3px;
-	color: #ABA37F;
-	-webkit-appearance: none;
-    appearance: none;
-    background-image: url(img/before_click.png);
-    background-repeat: no-repeat;
+	border-radius: 3px;	  
     background-position: right 10px center;
+    background-color: #fff;
+    background-repeat: no-repeat;
 }
 
-#menu_select > div #model{
-	border-color: #DEDDC1;
+#model{
+	border: 1px solid #DEDDC1;
 	background-image: url(img/after_click.png);
 	color: #504B3B;
 }
 
-/*option selected*//*{
-	border-color: #DEDDC1;
-	background-image: url(img/after_click.png);
-	color: #504B3B;
-}*/
+#color,#plan{
+	border: 1px solid #EBEED9;
+	color: #ABA37F;
+	background-image: url(img/before_click.png);
+    
+}
+
+#model p,#color p,#plan p{
+	line-height: 38px;
+	font-size: 13px;
+	text-align: left;
+	padding-left: 11px;
+}
 
 #menu_select > div select::-ms-expand{
 	display: none;
@@ -631,8 +639,10 @@ p{
 }
 
 #price > p:nth-child(1){
-	font-size: 21px;
-	line-height: 20px;
+	display: inline-block;
+	height: 40px;
+	font-size: 20px;
+	line-height: 19px;
 }
 
 #price div {
@@ -642,9 +652,10 @@ p{
 }
 
 #price div p:nth-child(1){
-	font-size: 50px;
+	font-size: 52px;
 	line-height: 50px;
 	font-weight: 900;
+	margin-right: 3px;
 }
 
 #price div p:nth-child(2){
@@ -657,7 +668,7 @@ p{
 	position: absolute;
 	left: 37px;
 	top: 10px;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 #bottom_list > p{
@@ -712,17 +723,18 @@ p{
 
 #contact_txt{
 	display: flex;
-	max-width: 664px;
+	max-width: 680px;
 	margin: 0 auto;
-	padding: 15px 0;
+	
 }
 
 #contact_txt p{
-	font-size: 13px;
 	font-weight: 700;
+	line-height: 50px;
 }
 
 #contact_txt p:first-child{
+	font-size: 13px;
 	margin-right: 17px;
 }
 
@@ -731,7 +743,12 @@ p{
 }
 
 #contact_txt p:nth-child(2){
+	font-size: 16px;
 	margin-right: 17px;
+}
+
+#contact_txt p:nth-child(3){
+	font-size: 12px;
 }
 
 #copyright{
